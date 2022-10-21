@@ -4,12 +4,13 @@ body{
 }
 
 section{
-    height: 500px;
+    height: 650px;
     background-repeat: no-repeat;
 }
 
 h1{
     font-size: 50px;
+    
 }
 h2{
     font-size: 40px;
@@ -23,7 +24,7 @@ p{
     color: orange;
 }
 
-.half-width{
+.half-width:not(#center){
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -41,13 +42,13 @@ p{
 }
 .middel-banner{
     background-image: url(image/dream-bg.png);
-    background-position: right;
-    margin-bottom: 150px;
-    
+    background-position: right;  
 }
 
 .last-banner{
     background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .link-button{
@@ -83,8 +84,6 @@ p{
         font-size: 12px;
     }
 
-    #underline{
+    #center{
         text-align: center;
     }
-
-    
